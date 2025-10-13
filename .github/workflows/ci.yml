@@ -14,33 +14,47 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
+    - name: Check for package.json
+      id: check-package
+      run: |
+        if [ -f package.json ]; then
+          echo "has-package=true" >> $GITHUB_OUTPUT
+        else
+          echo "has-package=false" >> $GITHUB_OUTPUT
+        fi
+        
     - name: Setup Node.js
+      if: steps.check-package.outputs.has-package == 'true'
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
         
     - name: Install dependencies
-      run: |
-        if [ -f package.json ]; then
-          npm ci
-        fi
+      if: steps.check-package.outputs.has-package == 'true'
+      run: npm ci
         
     - name: Run tests
+      if: steps.check-package.outputs.has-package == 'true'
       run: |
-        if [ -f package.json ] && npm run test --if-present; then
+        if npm run test --if-present; then
           npm test
         else
-          echo "No tests found or package.json not present"
+          echo "No test script found"
         fi
         
     - name: Run linting
+      if: steps.check-package.outputs.has-package == 'true'
       run: |
-        if [ -f package.json ] && npm run lint --if-present; then
+        if npm run lint --if-present; then
           npm run lint
         else
           echo "No linting script found"
         fi
+        
+    - name: Skip tests for non-Node projects
+      if: steps.check-package.outputs.has-package == 'false'
+      run: echo "No package.json found, skipping Node.js tests"
 
   build:
     runs-on: ubuntu-latest
@@ -50,27 +64,37 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
+    - name: Check for package.json
+      id: check-package
+      run: |
+        if [ -f package.json ]; then
+          echo "has-package=true" >> $GITHUB_OUTPUT
+        else
+          echo "has-package=false" >> $GITHUB_OUTPUT
+        fi
+        
     - name: Setup Node.js
+      if: steps.check-package.outputs.has-package == 'true'
       uses: actions/setup-node@v4
       with:
         node-version: '18'
         cache: 'npm'
         
     - name: Install dependencies
-      run: |
-        if [ -f package.json ]; then
-          npm ci
-        fi
+      if: steps.check-package.outputs.has-package == 'true'
+      run: npm ci
         
     - name: Build project
+      if: steps.check-package.outputs.has-package == 'true'
       run: |
-        if [ -f package.json ] && npm run build --if-present; then
+        if npm run build --if-present; then
           npm run build
         else
           echo "No build script found"
         fi
         
     - name: Upload build artifacts
+      if: steps.check-package.outputs.has-package == 'true'
       uses: actions/upload-artifact@v4
       with:
         name: build-files
@@ -79,6 +103,10 @@ jobs:
           build/
           out/
         if-no-files-found: ignore
+        
+    - name: Skip build for non-Node projects
+      if: steps.check-package.outputs.has-package == 'false'
+      run: echo "No package.json found, skipping build"
 
   security-scan:
     runs-on: ubuntu-latest
@@ -96,7 +124,8 @@ jobs:
         output: 'trivy-results.sarif'
         
     - name: Upload Trivy scan results to GitHub Security tab
-      uses: github/codeql-action/upload-sarif@v3
       if: always()
+      uses: github/codeql-action/upload-sarif@v3
       with:
         sarif_file: 'trivy-results.sarif'
+        ignore_errors: true
