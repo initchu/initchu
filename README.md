@@ -10,7 +10,7 @@ A **Full Stack Developer** and **DevOps Engineer** passionate about building **s
 
 ## 🛠️ Tech Stack
 
-![My Skills](https://skillicons.dev/icons?i=java,python,js,ts,go,spring,react,vue,nodejs,kubernetes,docker,ansible,helm,redis,mysql,git,github,vscode,linux&perline=10)
+![My Skills](https://skillicons.dev/icons?i=java,python,js,ts,go,spring,react,vue,nodejs,kubernetes,docker,ansible,redis,mysql,git,github,vscode,linux,helm&perline=10)
 
 ## 📊 GitHub Stats
 
