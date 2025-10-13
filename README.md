@@ -22,12 +22,31 @@ A **Full Stack Developer** and **DevOps Engineer** passionate about building **s
 
 ## 🌟 Featured Projects
 
-1. [K8s In Depth](https://github.com/initchu/k8s-in-depth) - Comprehensive Kubernetes learning notes and best practices
-2. [MySQL Operator](https://github.com/initchu/mysql-operator) - Kubernetes MySQL Operator for automated database management
-3. [Ansible Deploy K8s](https://github.com/initchu/ansible-deploy-k8s) - One-click Kubernetes cluster deployment using Ansible
-4. [Redis Cluster](https://github.com/initchu/ansible-deploy-redis-cluster) - Automated Redis cluster deployment with Ansible
-5. [Video Downloader](https://github.com/initchu/streamfusion_cli) - Universal video search and download tool
-6. [Blog System](https://github.com/initchu/blog) - Personal blog system built with Vue.js and Node.js
+1. [design-patterns](https://github.com/initchu/design-patterns) - Practical examples of classic software design patterns
+2. [douyin_download](https://github.com/initchu/douyin_download) - CLI/Script to download videos from Douyin (TikTok China)
+3. [bilibili_downloader](https://github.com/initchu/bilibili_downloader) - Simple Bilibili video downloader utility
+4. [CoAP-Simulator](https://github.com/initchu/CoAP-Simulator) - Lightweight simulator for the CoAP protocol for testing IoT
+5. [articles_spider](https://github.com/initchu/articles_spider) - Cnblogs article crawler/downloader
+6. [k8s-deploy](https://github.com/initchu/k8s-deploy) - Kubernetes deployment strategies and rollout demos
+7. [K8s In Depth](https://github.com/initchu/k8s-in-depth) - Comprehensive Kubernetes learning notes and best practices
+8. [MySQL Operator](https://github.com/initchu/mysql-operator) - Kubernetes MySQL Operator for automated database management
+9. [Ansible Deploy K8s](https://github.com/initchu/ansible-deploy-k8s) - One-click Kubernetes cluster deployment using Ansible
+10. [Redis Cluster](https://github.com/initchu/ansible-deploy-redis-cluster) - Automated Redis cluster deployment with Ansible
+11. [Video Downloader](https://github.com/initchu/streamfusion_cli) - Universal video search and download tool
+12. [Blog System](https://github.com/initchu/blog) - Personal blog system built with Vue.js and Node.js
+
+## 🧪 My Recent Projects
+
+1. [initchu](https://github.com/initchu/initchu) - A self-updating GitHub profile
+2. [initchu.github.io](https://github.com/initchu/initchu.github.io) - Personal blog using Hexo and GitHub Pages
+3. [leetcode](https://github.com/initchu/leetcode) - LeetCode solutions and notes
+4. [mcp-example-repo](https://github.com/initchu/mcp-example-repo) - Example repository created using MCP GitHub tools
+5. [mysql-operator](https://github.com/initchu/mysql-operator) - Kubernetes MySQL Operator for automated database management
+6. [articles_spider](https://github.com/initchu/articles_spider) - Cnblogs article crawler/downloader
+7. [k8s-initializer-exercise](https://github.com/initchu/k8s-initializer-exercise) - Kubernetes Initializer exercises
+8. [k8s-deploy](https://github.com/initchu/k8s-deploy) - Kubernetes deployment strategies and rollout demos
+9. [k8s-in-depth](https://github.com/initchu/k8s-in-depth) - In-depth Kubernetes notes and best practices
+10. [k8s-analyze](https://github.com/initchu/k8s-analyze) - Notes for in-depth Kubernetes analysis (book)
 
 ## 📫 Connect With Me
 
