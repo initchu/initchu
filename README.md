@@ -22,12 +22,12 @@ A **Full Stack Developer** and **DevOps Engineer** passionate about building **s
 
 ## 🌟 Featured Projects
 
-1. [K8s In Depth](https://github.com/initchu/k8s-in-depth) - 深入剖析Kubernetes学习笔记
-2. [MySQL Operator](https://github.com/initchu/mysql-operator) - MySQL Operator for k8s
-3. [Ansible Deploy K8s](https://github.com/initchu/ansible-deploy-k8s) - Ansible一键部署Kubernetes
-4. [Redis Cluster](https://github.com/initchu/ansible-deploy-redis-cluster) - Ansible一键部署Redis集群
-5. [Video Downloader](https://github.com/initchu/streamfusion_cli) - 全网视频搜索下载工具
-6. [Blog System](https://github.com/initchu/blog) - 个人博客系统
+1. [K8s In Depth](https://github.com/initchu/k8s-in-depth) - Comprehensive Kubernetes learning notes and best practices
+2. [MySQL Operator](https://github.com/initchu/mysql-operator) - Kubernetes MySQL Operator for automated database management
+3. [Ansible Deploy K8s](https://github.com/initchu/ansible-deploy-k8s) - One-click Kubernetes cluster deployment using Ansible
+4. [Redis Cluster](https://github.com/initchu/ansible-deploy-redis-cluster) - Automated Redis cluster deployment with Ansible
+5. [Video Downloader](https://github.com/initchu/streamfusion_cli) - Universal video search and download tool
+6. [Blog System](https://github.com/initchu/blog) - Personal blog system built with Vue.js and Node.js
 
 ## 📫 Connect With Me
 
