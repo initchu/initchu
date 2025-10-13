@@ -16,7 +16,7 @@ A **Full Stack Developer** and **DevOps Engineer** passionate about building **s
 
 ![Chuchengzhi's github stats](https://github-readme-stats.vercel.app/api?username=initchu&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff)
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=initchu&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff&exclude_repo=k8s-in-depth)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=initchu&layout=compact&count_private=true&theme=blue-green&title_color=00b3ff&exclude_repo=k8s-in-depth,python_note)
 
 ![Chuchengzhi's current streak](https://github-readme-streak-stats.herokuapp.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff)
 
