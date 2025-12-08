@@ -2,7 +2,7 @@ name: Update README Stats
 
 on:
   schedule:
-    - cron: '0 0 * * 0'  # 每周日运行
+    - cron: '0 0 * * *'  # 每天运行
   workflow_dispatch:
 
 # 添加权限
@@ -18,7 +18,15 @@ jobs:
           # 确保签出所有历史记录以避免问题
           fetch-depth: 0
       
-      - name: Update README
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Run update script
+        run: node update-stats.js
+      
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
