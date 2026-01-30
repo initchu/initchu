@@ -30,5 +30,5 @@ A **Cloud Operations Expert (SRE)**, **Solutions Architect**, and **DevOps Engin
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chuchengzhi/)
 
 ## 📊 GitHub Stats
-![Chuchengzhi's github stats](https://github-readme-stats-sigma-five.vercel.app/api?username=initchu&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff&hide_border=false&include_all_commits=true&v=1769653630081)
-![Chuchengzhi's current streak](https://github-readme-streak-stats.herokuapp.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=false&v=1769653630081)
+![Chuchengzhi's github stats](https://github-readme-stats-sigma-five.vercel.app/api?username=initchu&show_icons=true&count_private=true&line_height=20&icon_color=00b3ff&theme=blue-green&title_color=00b3ff&hide_border=false&include_all_commits=true&v=1769740026329)
+![Chuchengzhi's current streak](https://github-readme-streak-stats.herokuapp.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=false&v=1769740026329)
