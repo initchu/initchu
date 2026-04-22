@@ -36,7 +36,7 @@
 
 <p align="center">
   <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=initchu&show_icons=true&count_private=true&icon_color=00b3ff&theme=blue-green&title_color=00b3ff&hide_border=true&include_all_commits=true&v=1776830615213"/>
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=true&v=1776830615213"/>
+  <img height="160" src="https://streak-stats.demolab.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=true&v=1776830615213"/>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b3ff,100:0d1117&height=100&section=footer" width="100%"/>

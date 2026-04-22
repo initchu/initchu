@@ -17,7 +17,7 @@ fs.readFile('README.md', 'utf8', (err, data) => {
     )
     .replace(
       /https:\/\/github-readme-streak-stats\.herokuapp\.com\/\?[^"')]+/g,
-      `https://github-readme-streak-stats.herokuapp.com/?user=${GITHUB_USERNAME}&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=true&v=${timestamp}`
+      `https://streak-stats.demolab.com/?user=${GITHUB_USERNAME}&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=true&v=${timestamp}`
     );
 
   fs.writeFile('README.md', updatedContent, 'utf8', (err) => {
