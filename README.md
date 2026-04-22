@@ -15,10 +15,10 @@
 
 ---
 
-10+ years in cloud infrastructure. 6 years at Huawei Cloud delivering large-scale private cloud platforms (HCS/CCE/KVM), container scheduling, and LLM inference environments. Led 50+ enterprise projects across government, energy, and finance sectors.
+10+ years in cloud infrastructure. 6 years at Huawei Cloud delivering large-scale private cloud platforms (HCS/CCE/KVM), container scheduling, and LLM inference environments. Led large-scale enterprise projects across government, energy, and finance sectors.
 
-- 🏗️ Private cloud IaaS/PaaS — up to 48,000+ vCPU, 6,000+ VMs
-- 🤖 LLM inference on Ascend NPU — DeepSeek-R1, 2500 tokens/sec, 40% throughput gain
+- 🏗️ Private cloud IaaS/PaaS — large-scale virtualization, distributed storage & SDN
+- 🤖 LLM inference on Ascend NPU — DeepSeek-R1, dynamic batching & HCCL RDMA optimization
 - ☸️ Kubernetes scheduling customization — GPU/NPU affinity, HPA, RBAC
 - 🌐 IoT & edge computing — protocol development, gateway design
 
