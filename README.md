@@ -35,8 +35,13 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=initchu&show_icons=true&count_private=true&icon_color=00b3ff&theme=blue-green&title_color=00b3ff&hide_border=true&include_all_commits=true&v=1776837858915"/>
-  <img height="160" src="https://streak-stats.demolab.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=true&v=1776830615213"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=initchu&theme=algolia&no-frame=true&row=1&column=6"/>
+</p>
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=initchu&show_icons=true&count_private=true&icon_color=00b3ff&theme=blue-green&title_color=00b3ff&hide_border=true&include_all_commits=true&v=1776839552173"/>
+  <img height="160" src="https://streak-stats.demolab.com/?user=initchu&theme=blue-green&title_color=00b3ff&hide_border=true&v=1776839552173"/>
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=initchu&layout=compact&theme=blue-green&title_color=00b3ff&hide_border=true&langs_count=8&v=1776839552173"/>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b3ff,100:0d1117&height=100&section=footer" width="100%"/>
