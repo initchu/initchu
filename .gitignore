@@ -1,7 +1,3 @@
-# Project specific
-temp/
-.kiro/
-
 # ========================
 # OS
 # ========================
@@ -47,6 +43,9 @@ build/
 .nuxt/
 .cache/
 coverage/
+temp/
+.kiro/
+
 
 # ========================
 # Python
