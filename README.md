@@ -39,7 +39,7 @@
   <img height="160" src="https://streak-stats.demolab.com/?user=initchu&count_private=true&theme=blue-green&title_color=00b3ff&hide_border=true&v=1791091921371"/>
 </p>
 
-## 🐍 Snake Animation
+## 🐍 Devouring Time
 
 <p align="center">
   <picture>
